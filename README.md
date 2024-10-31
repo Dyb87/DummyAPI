@@ -74,6 +74,8 @@ owner: object(User Preview)
 Подробная проверка расписана для GET Post и Create Post.
 
 
+Можно [скачать](https://github.com/Dyb87/DummyAPI/blob/main/Dummy%20Api.xmind) Майнд-карту
+
 
 
   
