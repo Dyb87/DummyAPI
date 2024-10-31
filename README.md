@@ -70,11 +70,12 @@ owner: object(User Preview)
 
 ## Майнд-карта
 
-Данная майнд-карта представляет собой набор тестов для тестирования объекта **Post**. Подробная проверка расписана для GET Post и Create Post.
+Данная майнд-карта представляет собой набор тестов для тестирования объекта **Post**.
+Подробная проверка расписана для GET Post и Create Post.
 
-![Alt-текст](https://i.postimg.cc/brbvjjhr/Dummy-Api.png "МК")
+![Alt-текст](https://i.postimg.cc/brbvjjhr/Dummy-Api.png)
 
-![Alt-текст](https://avatars1.githubusercontent.com/u/5384215?v=3&s=460 "Орк")
+
 
 
   
