@@ -15,7 +15,7 @@ https://dummyapi.io/ Это сервис для тестирования REST AP
 - Доступны параметры запроса пагинации
 - Доступны параметры запроса создания
 
-  "**Responce body":**
+  **"Responce body":**
   
  "List"
   ```Javascript
@@ -37,4 +37,9 @@ lastName: string(length: 2-50)
 picture: string(url)
 }
 ```
+#### POST /post/create (Create post)
+Создание нового поста, получение информации о созданном посте
+**Обязательные параметры: (owner, post)**
+
+**"Request body":**
   
