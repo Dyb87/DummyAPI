@@ -73,7 +73,7 @@ owner: object(User Preview)
 Данная майнд-карта представляет собой набор тестов для тестирования объекта **Post**.
 Подробная проверка расписана для GET Post и Create Post.
 
-![Alt-текст](https://s.iimg.su/s/31/77HKCYIxQa4ADFGDNhsGrqSoLgmetVGIICDDCUN6.png)
+![Alt-текст](Dummy Api.png)
 
 
 
