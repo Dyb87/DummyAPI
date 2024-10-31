@@ -1,0 +1,1592 @@
+{
+	"info": {
+		"_postman_id": "67705ea6-fe20-43a8-b0e7-8cb5e7ab4cea",
+		"name": "Dummy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34077060"
+	},
+	"item": [
+		{
+			"name": "GETPostList",
+			"item": [
+				{
+					"name": "GETPostList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList (PUT)",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList(Page=0)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post?page=0",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList(Page=1)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post?page=1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList(Page=999)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post?page=999",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "999"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList(Page=1000)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post?page=1000",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList(Page=gfgfgf)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post?page=gfgfgf",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "gfgfgf"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList(Page=\" \")",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post?page=",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList (limit=4)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post?limit=4",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList (limit=5)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post?limit=5",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList (limit=50)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post?limit=50",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "50"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList (limit=51)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post?limit=51",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "51"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList (limit=refd)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post?limit=refd",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "refd"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList (limit=\" \")",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post?limit=",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList (created=0)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post?created=0",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList (created=1)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post?created=1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList (created=2)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post?created=2",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList (created=gfgfgf)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post?created=gfgfgf",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "gfgfgf"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETPostList (created=\" \")",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/post?created=",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Create user",
+			"item": [
+				{
+					"name": "Userlist",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/user",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create user (id= 670d9ec44308c2222a163f7c)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\r\n    \"title\": \"ms\",\r\n    \"firstName\": \"Sara\",\r\n    \"lastName\": \"Andersen\",\r\n    \"picture\": \"https://randomuser.me/api/portraits/women/58.jpg\",\r\n    \"gender\": \"female\",\r\n    \"email\": \"sara.andefdfdfdrsen@example.com\",\r\n    \"dateOfBirth\": \"1996-04-30T19:26:49.610Z\",\r\n    \"phone\": \"92694011\",\r\n    \"location\": {\r\n        \"street\": \"9614, SÃ¸ndermarksvej\",\r\n        \"city\": \"Kongsvinger\",\r\n        \"state\": \"Nordjylland\",\r\n        \"country\": \"Denmark\",\r\n        \"timezone\": \"-9:00\"\r\n    },\r\n    \"registerDate\": \"2021-06-21T21:02:07.374Z\",\r\n    \"updatedDate\": \"2021-06-21T21:02:07.374Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/user/create",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Create Post",
+			"item": [
+				{
+					"name": "text",
+					"item": [
+						{
+							"name": "Create post (without text)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (text=5))",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"uuuuu\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (text=6))",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"uuuuut\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (text=1000))",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qu\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (text=1001))",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"КLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qu\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (text кириллица))",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Пробник\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (text=\"\")",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "image",
+					"item": [
+						{
+							"name": "Create post (without image)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n   \r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (image url Кириллица)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"пппааапб.ру\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (Image url Латиница)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (Image url пустой) Copy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "likes",
+					"item": [
+						{
+							"name": "Create post (likes=0)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 0,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (without likes)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (likes=1)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 0,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (likes = пусто)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": ,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "link",
+					"item": [
+						{
+							"name": "Create post (without link)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (link=\"\")",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (link=5)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"http:\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (link=6)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"http:/\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (link=6) Copy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"http:/\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (link=кириллица)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"http://авоаво.ру\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (link=\"\")",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (link=200)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"http://glslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflcleff.ru\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (link=201)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"http://glslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclefglslflclfeff.ru\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "tags",
+					"item": [
+						{
+							"name": "Create post(array)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post(without array)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n \r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post(array=кириллица)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"кот\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post(tags = string)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": \r\n        \"cat\"\r\n    ,\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post(tags=число)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": \r\n        45245\r\n    ,\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "autogenerated",
+					"item": [
+						{
+							"name": "Create post (\"id\": \"670ef90be24f24314b96d2fd\",)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": \"670ef90be24f24314b96d2fd\",\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (\"publishDate\": \"2024-10-15T23:23:31.728Z\",)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": \"670ef90be24f24314b96d2fd\",\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (without id)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (without publishdate)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "owner",
+					"item": [
+						{
+							"name": "Create post (owner = 670d9ec44308c2222a163f7c)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (owner = \" \")",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (owner =fgfgfg)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"fgfgfg\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post (without owner)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/post/create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"post",
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Create post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n       \"image\": \"http://placeimg.com/640/480\",\r\n    \"likes\": 4,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"cat\"\r\n    ],\r\n    \"text\": \"Perpetuum mobile\",\r\n    \"publishDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"updatedDate\": \"2024-03-10T09:05:44.147Z\",\r\n    \"owner\": \"670d9ec44308c2222a163f7c\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/post/create",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{api-k}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "app-id",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
