@@ -37,9 +37,20 @@ lastName: string(length: 2-50)
 picture: string(url)
 }
 ```
+---
+
 #### POST /post/create (Create post)
 Создание нового поста, получение информации о созданном посте
-**Обязательные параметры: (owner, post)**
+**Обязательные параметры: (owner, text)**
 
 **"Request body":**
+```Jacascript
+{
+text: string(length: 6-50, preview only)
+image: string(url)
+likes: number(init value: 0)
+tags: array(string)
+owner: string(User id)
+}
+```
   
