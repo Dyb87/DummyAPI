@@ -74,5 +74,7 @@ owner: object(User Preview)
 
 ![Alt-текст](https://i.postimg.cc/brbvjjhr/Dummy-Api.png "МК")
 
+![Alt-текст](https://avatars1.githubusercontent.com/u/5384215?v=3&s=460 "Орк")
+
 
   
