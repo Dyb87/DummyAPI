@@ -75,7 +75,8 @@ owner: object(User Preview)
 Данная майнд-карта представляет собой набор тестов для тестирования объекта **Post**.
 Подробная проверка расписана для GET Post и Create Post.
 
-![](https://i.postimg.cc/brbvjjhr/Dummy-Api.png)
+![Alt-текст](https://i.postimg.cc/brbvjjhr/Dummy-Api.png "МК")
+
 
 
 Можно [скачать](https://github.com/Dyb87/DummyAPI/blob/main/Dummy%20Api.xmind) Майнд-карту
