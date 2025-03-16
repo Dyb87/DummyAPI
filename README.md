@@ -82,7 +82,7 @@ owner: object(User Preview)
 Данная майнд-карта представляет собой набор тестов для тестирования объекта **Post**.
 Подробная проверка расписана для GET List и Create Post.
 
-![Alt-текст]([https://s.iimg.su/s/01/TIjxBA2euK2h6dMhk1ZJlyU8uaQw8FYxQVCqxWaK.png](https://github.com/Dyb87/DummyAPI/blob/main/Dummy%20Api.png "МК")
+![Alt-текст]([[https://s.iimg.su/s/01/TIjxBA2euK2h6dMhk1ZJlyU8uaQw8FYxQVCqxWaK.png](https://github.com/Dyb87/DummyAPI/blob/main/Dummy%20Api.png](https://github.com/Dyb87/DummyAPI/blob/main/Dummy%20Api.png?raw=true) "МК")
 
 
 
